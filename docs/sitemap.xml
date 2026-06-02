@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+    
+    <!-- Homepage - Highest Priority -->
+    <url>
+        <loc>https://rahaelectrical.com/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80</image:loc>
+            <image:title>Professional Electrical Work by Raha Electrical</image:title>
+        </image:image>
+    </url>
+    
+    <!-- Main Service Pages -->
+    <url>
+        <loc>https://rahaelectrical.com/electrical-contractor-services/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrician-services/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/cctv-installation/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/security-camera-installation/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    
+    <!-- Service Type Pages -->
+    <url>
+        <loc>https://rahaelectrical.com/house-wiring-electrical-installation/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/commercial-electrical-contractor/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/industrial-electrical-contractor/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/emergency-electrician-services/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrical-maintenance-services/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrical-repair-services/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <!-- Other Important Pages -->
+    <url>
+        <loc>https://rahaelectrical.com/about-us/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/faq/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/contact-us/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/privacy-policy/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.50</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/terms-conditions/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.50</priority>
+    </url>
+    
+    <!-- Service Area Pages - Chennai Locations -->
+    <url>
+        <loc>https://rahaelectrical.com/electrician-chennai/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrical-contractor-tambaram/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrician-velachery/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrical-works-pallikaranai/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/cctv-installation-omr/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrician-adyar/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrical-contractor-anna-nagar/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/house-wiring-t-nagar/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/cctv-installation-porur/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://rahaelectrical.com/electrician-ambattur/</loc>
+        <lastmod>2024-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    
+</urlset>

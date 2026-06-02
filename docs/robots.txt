@@ -1,0 +1,64 @@
+# Robots.txt for Raha Electrical - Electrical Contractor & CCTV Installation Chennai
+# Generated for optimal search engine indexing
+
+User-agent: *
+Allow: /
+Allow: /about/
+Allow: /services/
+Allow: /electrical-contractor/
+Allow: /electrician-services/
+Allow: /cctv-installation/
+Allow: /security-systems/
+Allow: /service-areas/
+Allow: /contact/
+Allow: /faq/
+
+# Disallow private/admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /wp-admin/
+Disallow: /wp-login/
+Disallow: /*?*redirect=
+Disallow: /*?*orderby=
+Disallow: /search/
+Disallow: /tag/
+Disallow: /category/page/
+
+# Allow crawling of important assets
+Allow: *.css$
+Allow: *.js$
+Allow: *.jpg$
+Allow: *.jpeg$
+Allow: *.png$
+Allow: *.gif$
+Allow: *.svg$
+Allow: *.webp$
+
+# Sitemap location
+Sitemap: https://rahaelectrical.com/sitemap.xml
+Sitemap: https://rahaelectrical.com/sitemap-service-areas.xml
+
+# Crawl delay for better server performance
+Crawl-delay: 1
+
+# User-agent specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+Request-rate: 100/1h
+
+# User-agent for Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+Request-rate: 50/1h
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
