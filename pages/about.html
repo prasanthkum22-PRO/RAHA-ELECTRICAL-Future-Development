@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>About Raha Electrical | Experienced Electrical Contractor & CCTV Specialist Chennai</title>
+    <meta name="description" content="About Raha Electrical Future Development - Leading electrical contractor in Chennai with 5+ years experience, 500+ completed projects, 300+ satisfied customers. Professional electrician and CCTV installation services.">
+    <meta name="keywords" content="about Raha Electrical, electrical contractor Chennai, professional electrician, experienced CCTV installer, trusted services">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="About Raha Electrical | Professional Electrical Contractor Chennai">
+    <meta property="og:description" content="Learn about Raha Electrical - Your trusted electrical contractor with 5+ years of experience serving Chennai and Tamil Nadu.">
+    <meta property="og:url" content="https://rahaelectrical.com/about/">
+    
+    <link rel="canonical" href="https://rahaelectrical.com/about/">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Alpine.js (deferred) -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-white sticky top-0 z-50 border-b" x-data="{ open: false }">
+        <div class="max-w-7xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-3">
+                    <img src="../assets/images/logo.jpg" alt="Raha Electrical Logo" class="h-12 w-12 object-contain">
+                    <span class="text-2xl font-bold text-purple-600">RAHA ELECTRICAL</span>
+                </div>
+                <div class="space-x-6 hidden md:flex">
+                    <a href="../index.html" class="hover:text-purple-600">Home</a>
+                    <a href="electrical-contractor-services.html" class="hover:text-purple-600">Services</a>
+                    <a href="service-areas.html" class="hover:text-purple-600">Service Areas</a>
+                    <a href="contact.html" class="hover:text-purple-600">Contact</a>
+                    <a href="tel:+918608229579" class="bg-purple-600 text-white px-6 py-2 rounded-lg">Call Now</a>
+                </div>
+                <div class="md:hidden">
+                    <button @click="open = !open" class="text-gray-600 focus:outline-none">
+                        <i class="fa-solid" :class="open ? 'fa-xmark' : 'fa-bars'"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div x-show="open" x-cloak class="md:hidden bg-white border-t w-full px-4 py-4 shadow-lg">
+            <a href="../index.html" @click="open = false" class="block py-3 border-b hover:text-purple-600">Home</a>
+            <a href="electrical-contractor-services.html" @click="open = false" class="block py-3 border-b hover:text-purple-600">Services</a>
+            <a href="service-areas.html" @click="open = false" class="block py-3 border-b hover:text-purple-600">Service Areas</a>
+            <a href="contact.html" @click="open = false" class="block py-3 border-b hover:text-purple-600">Contact</a>
+            <a href="tel:+918608229579" class="block py-3 text-purple-600 font-bold">Call Now: 86082 29579</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">About Raha Electrical Future Development</h1>
+            <p class="text-xl opacity-90">Your trusted partner for professional electrical and CCTV installation services in Chennai and Tamil Nadu</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <!-- Company Overview -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-6">Who We Are</h2>
+                <p class="text-lg text-gray-600 mb-4">Raha Electrical Future Development is a leading electrical contractor and CCTV installation service provider in Chennai, Tamil Nadu. With over 5 years of experience, we have successfully completed 500+ projects and earned the trust of 300+ satisfied customers across residential, commercial, and industrial sectors.</p>
+                <p class="text-lg text-gray-600">We are committed to delivering professional, reliable, and affordable electrical and security solutions that exceed customer expectations. Our team of experienced electricians and technicians ensures that every project is completed with precision, safety, and excellence.</p>
+            </div>
+
+            <!-- Our Mission -->
+            <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <div class="bg-purple-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4"><i class="fas fa-target text-purple-600 mr-3"></i>Our Mission</h3>
+                    <p class="text-gray-600">To provide high-quality, professional electrical and security installation services that ensure the safety, efficiency, and satisfaction of our customers. We aim to be the most trusted electrical contractor and CCTV installation expert in Chennai and Tamil Nadu.</p>
+                </div>
+                <div class="bg-green-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4"><i class="fas fa-eye text-green-600 mr-3"></i>Our Vision</h3>
+                    <p class="text-gray-600">To be recognized as the leading provider of innovative electrical solutions and security systems, setting industry standards for quality, reliability, and customer service. Leading the future of electrical infrastructure and security solutions in the region.</p>
+                </div>
+            </div>
+
+            <!-- Our Values -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8">Our Core Values</h2>
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="text-center p-6 border rounded-lg">
+                        <i class="fas fa-certificate text-purple-600 text-3xl mb-4"></i>
+                        <h4 class="font-bold mb-2">Quality</h4>
+                        <p class="text-gray-600 text-sm">We maintain highest standards in all our electrical and CCTV installation work</p>
+                    </div>
+                    <div class="text-center p-6 border rounded-lg">
+                        <i class="fas fa-shield-alt text-purple-600 text-3xl mb-4"></i>
+                        <h4 class="font-bold mb-2">Safety</h4>
+                        <p class="text-gray-600 text-sm">Safety is our top priority in every project and operation</p>
+                    </div>
+                    <div class="text-center p-6 border rounded-lg">
+                        <i class="fas fa-handshake text-purple-600 text-3xl mb-4"></i>
+                        <h4 class="font-bold mb-2">Trust</h4>
+                        <p class="text-gray-600 text-sm">We earn and maintain trust through reliability and integrity</p>
+                    </div>
+                    <div class="text-center p-6 border rounded-lg">
+                        <i class="fas fa-star text-purple-600 text-3xl mb-4"></i>
+                        <h4 class="font-bold mb-2">Excellence</h4>
+                        <p class="text-gray-600 text-sm">We strive for excellence in service delivery</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why Choose Us -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8">Why Choose Raha Electrical?</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>5+ Years Experience:</strong> Established track record in electrical and CCTV services</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>500+ Projects Completed:</strong> Proven expertise across residential, commercial, and industrial sectors</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>300+ Happy Customers:</strong> Strong reputation and customer satisfaction record</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>24/7 Emergency Services:</strong> Always available for urgent electrical repairs and support</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>Professional Team:</strong> Experienced electricians and CCTV technicians</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>Quality Materials:</strong> Using premium quality components and equipment</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>Affordable Pricing:</strong> Competitive rates without compromising quality</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>Safety Compliance:</strong> All work follows Indian electrical safety standards</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>Wide Service Area:</strong> Serving 50+ locations across Chennai and Tamil Nadu</span></li>
+                    <li class="flex items-start"><i class="fas fa-check-circle text-purple-600 mr-4 mt-1 text-xl"></i> <span class="text-gray-600"><strong>Free Site Inspection:</strong> Complimentary assessment before quotation</span></li>
+                </ul>
+            </div>
+
+            <!-- CTA -->
+            <div class="bg-purple-50 border-l-4 border-purple-600 p-8 rounded text-center">
+                <h3 class="text-2xl font-bold mb-4">Ready to Work with Chennai's Most Trusted Electrical Contractor?</h3>
+                <p class="text-gray-600 mb-6">Contact Raha Electrical for professional electrical and CCTV installation services</p>
+                <div class="flex justify-center gap-4">
+                    <a href="tel:+918608229579" class="bg-purple-600 text-white px-8 py-3 rounded-lg font-bold">Call: 86082 29579</a>
+                    <a href="https://wa.me/918608229579" class="bg-green-500 text-white px-8 py-3 rounded-lg font-bold">WhatsApp Chat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Raha Electrical Future Development. All Rights Reserved.</p>
+            <div class="mt-4 space-x-6">
+                <a href="../index.html" class="hover:text-purple-400">Home</a>
+                <a href="#" class="hover:text-purple-400">Privacy Policy</a>
+                <a href="#" class="hover:text-purple-400">Terms</a>
+                <a href="tel:+918608229579" class="hover:text-purple-400">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Raha Electrical Future Development",
+      "description": "Professional electrical contractor and CCTV installation service provider in Chennai with 5+ years experience",
+      "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e",
+      "telephone": "+918608229579",
+      "url": "https://rahaelectrical.com/about/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "addressCountry": "IN"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "250"
+      }
+    }
+    </script>
+</body>
+</html>
